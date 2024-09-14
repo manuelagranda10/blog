@@ -1,0 +1,424 @@
+
+
+
+body{
+    background-color: #ffffff;
+     font-family: 'PT Sans', sans-serif;
+
+ }
+ header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 50px;
+     background-color: #fbf6f6;
+     background-size: cover;
+     background-position: center;
+     font-weight: bold;
+     font-size: 20px;
+     z-index: 1000;
+
+
+ }
+     .nav{
+     width: 100%;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+     }
+
+     .logo{
+
+         position: relative;
+         left: 2px;
+         width: 5px;
+         height: 5px;
+         top: -100px;
+
+     }
+
+
+ .buscador{
+     display: flex;
+     position: relative;
+     left: 75%;
+     top: -60px;
+
+ }
+
+ input[type="text"] {
+     padding: 8px;
+     border: 1px solid #000000;
+     border-radius: 10px 10px 10px 10px;
+
+ }
+
+ button {
+     padding: 8px 12px;
+     border: 1px solid #000000;
+     border-left: none;
+     border-radius: 0 5px 5px 0;
+     background-color: #f5b4b4;
+     color: white;
+     cursor: pointer;
+     border-radius: 10px 10px 10px 10px;
+ }
+
+ button:hover {
+     background-color: rgb(0, 0, 0);
+ }
+
+     .menu{
+        display: flex;
+        position: absolute;
+        right: 300px;
+        top: -8px;
+         }
+
+         .menu li{
+         list-style: none;
+         margin: 50px;
+
+         }
+
+
+
+       .menu li a{
+             color: #070707;
+             text-decoration: none;
+             font-weight: bold;
+             transition: all 0.5s ease;
+             }
+
+             .menu li a:hover{
+             padding: 5px 10px;
+             background: #7a7a7a;
+             color: #fffdfd;
+             border-radius: 15px;
+
+             }
+
+             .logo{
+                position: relative;
+                top: 40px;
+                 left: -30px;
+                 width: 10px;
+                 height: 8px;
+                 border-radius: 30%;
+                 margin-top: -200px;
+
+             }
+
+             .contenedor-principal{
+
+
+                position: absolute;
+                background-color: rgb(255, 242, 242);
+                top: 100px;
+                max-width: 1800px ;
+                height:350px;
+                padding: 50px;
+                border-bottom: 1px solid #000000;
+            }
+.contenedor-principal h2{
+    padding: 40px;
+    font-size: 30px;
+
+}
+
+
+
+
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+top:-100px;
+   margin: 30px;
+   margin-bottom: 60px;
+ right: 60px;
+}
+
+.slides {
+    display: flex;
+    animation: slide 12s infinite;
+    height: 500px;
+}
+
+.slide {
+    flex: 0 0 100%;
+    max-width: 1400px;
+    transition: 0.20s;
+    position: relative;
+    margin-top: 50px;
+
+
+}
+
+.slide img {
+
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0%, 25% { transform: translateX(0); }
+    33%, 58% { transform: translateX(-100%); }
+    66%, 91% { transform: translateX(-200%); }
+}
+
+
+
+
+
+        .imagen img{
+                width: 40%;
+                height:100px;
+                position: relative;
+                top:-350px;
+                left: -30px;
+
+            }
+
+
+
+        .cont2 {
+            text-align: center;
+        }
+             .contenedores {
+            padding-top: 400px;
+                max-width: 1000px;
+                display: flex;
+               flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-left: 200px;
+                margin-right: 00px;
+
+            }
+
+     .sec1 {
+        margin-top: 500px;
+        position: relative;
+        top:200px;
+        border-radius: 20px 20px 20px 20px;
+        box-sizing: border-box;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        width: 450px;
+        height:650px;
+        font-size: 15px;
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        text-align: center;
+        border: solid;
+        border-color: #c4c0c0;
+        transition: transform 0.3s ease;
+        margin-bottom: 50px;
+        margin-right: 40px;
+    }
+
+    .sec1 img {
+        border-radius:  20px 20px 20px ;
+        max-width: 100%;
+    }
+    .sec2 {
+        position: relative;
+        top:200px;
+        border-radius: 20px 20px 20px 20px;
+        box-sizing: border-box;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        width: 400px;
+        height:650px;
+        font-size: 15px;
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        text-align: center;
+        border: solid;
+        border-color: #c4c0c0;
+        transition: transform 0.3s ease;
+        margin-right: 30px;
+    }
+
+    .sec2 img {
+        border-radius:  20px 20px 20px ;
+        height:250px;
+        width: 100%;
+
+
+    }
+    .sec3 {
+        position: relative;
+        top:200px;
+        border-radius: 20px 20px 20px 20px;
+        box-sizing: border-box;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        width: 470px;
+        height:650px;
+        font-size: 15px;
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        border: solid;
+        border-color: #c4c0c0;
+        transition: transform 0.5s ease;
+        margin-right: 30px;
+    }
+    .sec3 img {
+        border-radius:  20px 20px 20px ;
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        color: #070707;
+        font-size: 30px;
+    }
+    h2{
+        color: #504b4b;
+    }
+
+ .sec1:hover, .sec2:hover , .sec3:hover {
+        transform: scale(1.1);
+
+    }
+
+
+    .boton-contenedor {
+        text-align: center;
+        background-color: #000000;
+        margin: 0 auto;
+        border-radius: 20px 20px 20px 20px;
+        width: 100px;
+        }
+
+        .boton-contenedor a {
+        text-decoration: none;
+        color: #f7cece;
+
+        }
+
+        .boton{
+        padding: 15px;
+        color: #ffffff;
+     }
+
+        .boton-contenedor:hover {
+
+        background-color:#f7c4c4;
+
+        }
+
+        footer {
+            top: 330%;
+            background-color: #fde7e7;
+         color: rgb(85, 80, 80);
+           clear: both;
+           Line-height: 30px;
+           text-align: center;
+          padding: 45px;
+          height: 200px;
+           width: 100%;
+           position: absolute ;
+
+       }
+
+
+       .titulo-video{
+        text-align: center;
+        position: relative;
+        top: 190px;
+       
+       }
+    
+        .seccion-videos{
+            margin-left: 70px;
+            position:relative;
+            display: flex;
+
+           
+            top: 200px;
+            margin: 80px;
+        }
+
+        .secciones{
+            border-radius: 4%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f7c4c4;
+        }
+
+      .linea{
+     border-left: 2px solid black;
+      height: 230px;
+       margin-left: 20px;
+      float: left;
+      position: relative;
+       left: 500px;
+         }
+  .derecha{
+
+   float: right;
+  width: 40%;
+   margin-right: 10px;
+   margin-top: 40px;
+   color: #000000;
+     }
+  .izquierda{
+      margin-top: 40px;
+   color: #000000;
+  float: left;
+  width: 40%;
+margin-left: 20px;
+
+
+       }
+  footer a{
+ text-decoration: none;
+
+      }
+      footer ul  {
+       list-style-type: none;
+          }
+     .izquierda a{
+          color: #000000;
+           }
+
+.derecha a{
+    color: #000000;
+    margin: 20px;
+
+}
+
+/* .nosotros{
+    max-width: 1200px;
+position: relative;
+top: 200px;
+border-radius: 30px;
+border: 1px solid #000000;
+padding: 40px;
+margin: auto;
+text-align: center;
+background-color:rgb(255, 224, 235)
+
+} */
+

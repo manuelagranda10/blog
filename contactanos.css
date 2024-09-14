@@ -1,0 +1,167 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeaf7;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #ffffff ;
+    color: #000000;
+   margin-bottom: 100px;
+}
+
+.logo img {
+    max-height: 150px;
+}
+
+.titulo h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.navegacion ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.navegacion a:hover{
+    color: black;
+ }
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.contacto h2 {
+    margin-top: 30px;
+    font-size: 1.8em;
+    color: #6f6f6f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+   
+}
+
+form label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #343a40;
+    border-radius: 10%;
+}
+
+.contacto button:hover{
+    background-color: #7094c4;
+    color: rgb(255, 255, 255);
+
+}
+
+footer {
+    top: 200%;
+    background-color: #ffffff;
+ color: rgb(85, 80, 80);
+   clear: both;
+   Line-height: 30px;
+   text-align: center;
+  padding: 45px;
+  height: 200px;
+   width: 100%;
+   position: absolute ;
+
+}
+
+ .linea{
+    border-left: 2px solid black;
+     height: 230px;
+      margin-left: 20px;
+     float: left;
+     position: relative;
+      left: 500px;
+        }
+ .derecha{
+
+  float: right;
+ width: 40%;
+  margin-right: 10px;
+  margin-top: 40px;
+  color: #000000;
+    }
+ .izquierda{
+     margin-top: 40px;
+  color: #000000;
+ float: left;
+ width: 40%;
+margin-left: 20px;
+
+
+      }
+ footer a{
+text-decoration: none;
+
+     }
+     footer ul  {
+      list-style-type: none;
+         }
+    .izquierda a{
+         color: #000000;
+          }
+
+.derecha a{
+   color: #000000;
+   margin: 20px;
+
+}
+
+
+.contacto{
+    border-radius: 5%;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+    
+}
+
