@@ -1,2 +1,2 @@
-# lacocinamejorada
-cocina mejorada
+# blog
+blog mejorado
